@@ -1,8 +1,8 @@
 import * as React from "react";
 import { observer } from "mobx-react";
 import { Route, withRouter, Switch } from "react-router-dom";
-import MainMenu from "../components/main-menu";
 import { Divider } from "semantic-ui-react";
+import MainMenu from "../components/main-menu";
 import { endpoints } from "./endpoints";
 
 // @ts-ignore
