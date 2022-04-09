@@ -1,3 +1,4 @@
+import "./plugins/sentry.plugin";
 import "./apis/axios.api";
 import * as React from "react";
 import * as ReactDOM from "react-dom";
