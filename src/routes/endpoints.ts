@@ -3,6 +3,8 @@ import { RouteProps } from "react-router-dom";
 import Combustivel from "../containers/combustivel";
 import StarWarsDetails from "../containers/star-wars-details";
 import StarWars from "../containers/star-wars";
+import Register from "../containers/register";
+import Cache from "../containers/cache";
 
 const publicUrl = process.env.PUBLIC_URL;
 
@@ -30,4 +32,11 @@ export const endpoints: EndPointsProps[] = [
     component: StarWarsDetails,
     exact: true,
   },
+  {
+    path: `${publicUrl}/register`,
+    component: Register,
+    name: "Register",
+    exact: true,
+  },
+  { path: `${publicUrl}/cache`, name: "Cache", component: Cache, exact: true },
 ];
